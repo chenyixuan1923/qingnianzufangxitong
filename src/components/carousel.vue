@@ -9,8 +9,8 @@
   export default {
     data() {
       return {
-        bannerHeight: 700,
-        screenWidth: 1920,
+        bannerHeight: 800,
+        screenWidth: 1440,
         pic:[
           {
             src:require('../assets/1.jpeg')
@@ -20,6 +20,18 @@
           },
           {
             src:require('../assets/3.jpeg')
+          },
+          {
+            src:require('../assets/4.jpeg')
+          },          
+          {
+            src:require('../assets/5.jpeg')
+          },
+          {
+            src:require('../assets/6.jpeg')
+          },
+          {
+            src:require('../assets/7.jpeg')
           }
         ]
       };
@@ -38,11 +50,11 @@
       setSize1: function() {
         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         this.screenWidth = width;
-      this.bannerHeight = 700 / 1920 * this.screenWidth - 50;
+      this.bannerHeight = 800 / 1440 * this.screenWidth - 50;
       document.getElementById('el-carousel').style.height = this.bannerHeight + 'px';
       },
       setSize: function() {
-        this.bannerHeight = 700 / 1920 * this.screenWidth - 50 ;
+        this.bannerHeight = 800 / 1440 * this.screenWidth - 50 ;
         document.getElementById('el-carousel').style.height = this.bannerHeight + 'px';
         },
     }

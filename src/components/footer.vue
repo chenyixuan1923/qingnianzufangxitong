@@ -3,8 +3,8 @@
   <div class="footer agileits w3layouts" id="footer">
     <div class="container" id="cont">
       <div class="col-md-6 col-sm-6 agileits w3layouts footer-grids newsletter wow fadeInUp">
-        <h4>Stay Connected</h4>
-        <p>Subscribe to our newsletter and get informed of our newest projects.</p>
+        <h4>联系我们，期待您的光临</h4>
+        <p>订阅我们的时事资讯，了解我们的最新项目。</p>
         <form action="#" method="post">
           <input type="text" placeholder="Email" name="Email" required="">
         </form>

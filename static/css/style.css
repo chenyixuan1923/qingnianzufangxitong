@@ -811,7 +811,7 @@ ul.social-icons li a.youtube:hover {
 	font-weight: 600;
 	text-align: right;
 	padding-right: 5px;
-	color: #7D5673;
+	color: #333;
 }
 
 .gallery-grid-info h3 {
@@ -837,7 +837,7 @@ ul.social-icons li a.youtube:hover {
 
 .details {
 	padding: 40px 0;
-	background-color: #EAEAEA;
+	background-color: rgba(148, 163, 241, 0.6);
 }
 /*--w3layouts--*/
 /*--agileits--*/
